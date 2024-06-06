@@ -1,4 +1,4 @@
-import Shepherd from 'shepherd.js';
+
 document.addEventListener('DOMContentLoaded', () => {
     const tour = new Shepherd.Tour({
       defaultStepOptions: {
@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   
     tour.addStep({
+      id: 'step 1',
       title: 'Welcome',
       text: 'Welcome to the WomenTechmakers site!',
       attachTo: {
